@@ -107,3 +107,16 @@ platforms:
     privileged: true
     pre_build_image: true
 ```
+
+eg.
+
+```yaml
+---
+driver:
+  name: docker
+platforms:
+  - name: instance
+    image: orlandop43/systemd-os:ubuntu20.04 
+    privileged: true
+    pre_build_image: true
+```

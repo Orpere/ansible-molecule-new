@@ -13,7 +13,11 @@
 docker run -it --privileged  [name]  bash 
 ```
 
-## 3.push the image to your docker hub repo
+## 3.create a repo on docker hub
+
+eg:  orlandop43/systemd-os:tagname
+
+## 4.push the image to your docker hub repo
 
 ```zsh
 docker tag local-image:tagname new-repo:tagname
